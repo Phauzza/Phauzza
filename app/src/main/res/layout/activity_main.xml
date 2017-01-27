@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pahuza.pahuza.views.MainActivity">
+
+    <TextView
+        android:id="@+id/user_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/req_photo_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorAccent"
+        android:text="Request a Photo" />
+
+    <Button
+        android:id="@+id/help_friend_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/req_photo_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:text="Help a Friend" />
+
+    <Button
+        android:id="@+id/my_jobs_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/help_friend_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:text="My Jobs" />
+
+    <Button
+        android:id="@+id/signout_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/my_jobs_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:text="Sign Out" />
+
+</RelativeLayout>

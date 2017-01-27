@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "148351748447",
+    "firebase_url": "https://phauzza-f0c61.firebaseio.com",
+    "project_id": "phauzza-f0c61",
+    "storage_bucket": "phauzza-f0c61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148351748447:android:ef9837493d48b05d",
+        "android_client_info": {
+          "package_name": "com.pahuza.pahuza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148351748447-67c2rt2b2dgsnk7nl5umc107pquom4d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4IkXEW0axaV8h72pCvHu-y2KcG_wDBPU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
